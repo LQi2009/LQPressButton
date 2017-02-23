@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		911DA6AE1E5E8EF600CECD06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911DA6AD1E5E8EF600CECD06 /* AppDelegate.swift */; };
+		911DA6B01E5E8EF600CECD06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911DA6AF1E5E8EF600CECD06 /* ViewController.swift */; };
+		911DA6B31E5E8EF600CECD06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 911DA6B11E5E8EF600CECD06 /* Main.storyboard */; };
+		911DA6B51E5E8EF600CECD06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911DA6B41E5E8EF600CECD06 /* Assets.xcassets */; };
+		911DA6B81E5E8EF600CECD06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 911DA6B61E5E8EF600CECD06 /* LaunchScreen.storyboard */; };
+		911DA6C31E5E8EF600CECD06 /* LDPressButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911DA6C21E5E8EF600CECD06 /* LDPressButtonUITests.swift */; };
+		911DA6CF1E5E8F1400CECD06 /* LDPressButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911DA6CE1E5E8F1400CECD06 /* LDPressButton.swift */; };
+		911DA6D11E5E8F3500CECD06 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911DA6D01E5E8F3500CECD06 /* TestViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		911DA6BF1E5E8EF600CECD06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 911DA6A21E5E8EF600CECD06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 911DA6A91E5E8EF600CECD06;
+			remoteInfo = LDPressButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		911DA6AA1E5E8EF600CECD06 /* LDPressButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDPressButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		911DA6AD1E5E8EF600CECD06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		911DA6AF1E5E8EF600CECD06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		911DA6B21E5E8EF600CECD06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		911DA6B41E5E8EF600CECD06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		911DA6B71E5E8EF600CECD06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		911DA6B91E5E8EF600CECD06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		911DA6BE1E5E8EF600CECD06 /* LDPressButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDPressButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		911DA6C21E5E8EF600CECD06 /* LDPressButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LDPressButtonUITests.swift; sourceTree = "<group>"; };
+		911DA6C41E5E8EF600CECD06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		911DA6CE1E5E8F1400CECD06 /* LDPressButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LDPressButton.swift; sourceTree = "<group>"; };
+		911DA6D01E5E8F3500CECD06 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		911DA6A71E5E8EF600CECD06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911DA6BB1E5E8EF600CECD06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		911DA6A11E5E8EF600CECD06 = {
+			isa = PBXGroup;
+			children = (
+				911DA6AC1E5E8EF600CECD06 /* LDPressButton */,
+				911DA6C11E5E8EF600CECD06 /* LDPressButtonUITests */,
+				911DA6AB1E5E8EF600CECD06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		911DA6AB1E5E8EF600CECD06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				911DA6AA1E5E8EF600CECD06 /* LDPressButton.app */,
+				911DA6BE1E5E8EF600CECD06 /* LDPressButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		911DA6AC1E5E8EF600CECD06 /* LDPressButton */ = {
+			isa = PBXGroup;
+			children = (
+				911DA6CD1E5E8F1400CECD06 /* LDPressButton */,
+				911DA6AD1E5E8EF600CECD06 /* AppDelegate.swift */,
+				911DA6AF1E5E8EF600CECD06 /* ViewController.swift */,
+				911DA6D01E5E8F3500CECD06 /* TestViewController.swift */,
+				911DA6B11E5E8EF600CECD06 /* Main.storyboard */,
+				911DA6B41E5E8EF600CECD06 /* Assets.xcassets */,
+				911DA6B61E5E8EF600CECD06 /* LaunchScreen.storyboard */,
+				911DA6B91E5E8EF600CECD06 /* Info.plist */,
+			);
+			path = LDPressButton;
+			sourceTree = "<group>";
+		};
+		911DA6C11E5E8EF600CECD06 /* LDPressButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				911DA6C21E5E8EF600CECD06 /* LDPressButtonUITests.swift */,
+				911DA6C41E5E8EF600CECD06 /* Info.plist */,
+			);
+			path = LDPressButtonUITests;
+			sourceTree = "<group>";
+		};
+		911DA6CD1E5E8F1400CECD06 /* LDPressButton */ = {
+			isa = PBXGroup;
+			children = (
+				911DA6CE1E5E8F1400CECD06 /* LDPressButton.swift */,
+			);
+			path = LDPressButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		911DA6A91E5E8EF600CECD06 /* LDPressButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 911DA6C71E5E8EF600CECD06 /* Build configuration list for PBXNativeTarget "LDPressButton" */;
+			buildPhases = (
+				911DA6A61E5E8EF600CECD06 /* Sources */,
+				911DA6A71E5E8EF600CECD06 /* Frameworks */,
+				911DA6A81E5E8EF600CECD06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LDPressButton;
+			productName = LDPressButton;
+			productReference = 911DA6AA1E5E8EF600CECD06 /* LDPressButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		911DA6BD1E5E8EF600CECD06 /* LDPressButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 911DA6CA1E5E8EF600CECD06 /* Build configuration list for PBXNativeTarget "LDPressButtonUITests" */;
+			buildPhases = (
+				911DA6BA1E5E8EF600CECD06 /* Sources */,
+				911DA6BB1E5E8EF600CECD06 /* Frameworks */,
+				911DA6BC1E5E8EF600CECD06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				911DA6C01E5E8EF600CECD06 /* PBXTargetDependency */,
+			);
+			name = LDPressButtonUITests;
+			productName = LDPressButtonUITests;
+			productReference = 911DA6BE1E5E8EF600CECD06 /* LDPressButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		911DA6A21E5E8EF600CECD06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Artup;
+				TargetAttributes = {
+					911DA6A91E5E8EF600CECD06 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					911DA6BD1E5E8EF600CECD06 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 911DA6A91E5E8EF600CECD06;
+					};
+				};
+			};
+			buildConfigurationList = 911DA6A51E5E8EF600CECD06 /* Build configuration list for PBXProject "LDPressButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 911DA6A11E5E8EF600CECD06;
+			productRefGroup = 911DA6AB1E5E8EF600CECD06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				911DA6A91E5E8EF600CECD06 /* LDPressButton */,
+				911DA6BD1E5E8EF600CECD06 /* LDPressButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		911DA6A81E5E8EF600CECD06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911DA6B81E5E8EF600CECD06 /* LaunchScreen.storyboard in Resources */,
+				911DA6B51E5E8EF600CECD06 /* Assets.xcassets in Resources */,
+				911DA6B31E5E8EF600CECD06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911DA6BC1E5E8EF600CECD06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		911DA6A61E5E8EF600CECD06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911DA6B01E5E8EF600CECD06 /* ViewController.swift in Sources */,
+				911DA6AE1E5E8EF600CECD06 /* AppDelegate.swift in Sources */,
+				911DA6D11E5E8F3500CECD06 /* TestViewController.swift in Sources */,
+				911DA6CF1E5E8F1400CECD06 /* LDPressButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911DA6BA1E5E8EF600CECD06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911DA6C31E5E8EF600CECD06 /* LDPressButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		911DA6C01E5E8EF600CECD06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 911DA6A91E5E8EF600CECD06 /* LDPressButton */;
+			targetProxy = 911DA6BF1E5E8EF600CECD06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		911DA6B11E5E8EF600CECD06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				911DA6B21E5E8EF600CECD06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		911DA6B61E5E8EF600CECD06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				911DA6B71E5E8EF600CECD06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		911DA6C51E5E8EF600CECD06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		911DA6C61E5E8EF600CECD06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		911DA6C81E5E8EF600CECD06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LDPressButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ldweb.LDPressButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		911DA6C91E5E8EF600CECD06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LDPressButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ldweb.LDPressButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		911DA6CB1E5E8EF600CECD06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LDPressButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ldweb.LDPressButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LDPressButton;
+			};
+			name = Debug;
+		};
+		911DA6CC1E5E8EF600CECD06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LDPressButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ldweb.LDPressButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LDPressButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		911DA6A51E5E8EF600CECD06 /* Build configuration list for PBXProject "LDPressButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911DA6C51E5E8EF600CECD06 /* Debug */,
+				911DA6C61E5E8EF600CECD06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		911DA6C71E5E8EF600CECD06 /* Build configuration list for PBXNativeTarget "LDPressButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911DA6C81E5E8EF600CECD06 /* Debug */,
+				911DA6C91E5E8EF600CECD06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		911DA6CA1E5E8EF600CECD06 /* Build configuration list for PBXNativeTarget "LDPressButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911DA6CB1E5E8EF600CECD06 /* Debug */,
+				911DA6CC1E5E8EF600CECD06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 911DA6A21E5E8EF600CECD06 /* Project object */;
+}
