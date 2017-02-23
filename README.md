@@ -7,7 +7,7 @@
 ###介绍
 属性介绍: 对外公开的属性十分简单, 主要是一些简单的设置, 都设有默认值
 
-```
+```Swift
 /// 计时时长
 var interval: Float = 10.0
 /// 按钮样式
@@ -21,12 +21,12 @@ var progressColor
 ```
 
 对外公开的方法只有一个, 用于接收回调的事件:
-```
+```Swift
 /// 响应事件
 func actionWithClosure(_ closure: @escaping actionState) 
 ```
 另外设置了两个枚举
-```
+```Swift
 /// 按钮的样式
 enum LDProgressButtonStyle {
     
@@ -48,7 +48,7 @@ enum LDProgressButtonState {
 ###使用
 控件继承自UIView, 可以添加到任意视图上, 使用非常简单, 这里直接给出示例代码
 这里直接使用的默认属性设置, 可根据自己的需求来设置
-```
+```Swift
 // 初始化控件
 let press = LDPressButton.init(frame: CGRect.init(x: 100, y: 100, width: 100, height: 100))
 // 添加控件
