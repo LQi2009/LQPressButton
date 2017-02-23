@@ -28,8 +28,11 @@ typealias actionState = (_ state: LDProgressButtonState) -> Void
 
 class LDPressButton: UIView {
 
+    
+    /// 计时时长
     var interval: Float = 10.0
     
+    /// 按钮样式
     var style: LDProgressButtonStyle = .White {
         
         didSet{
@@ -46,18 +49,24 @@ class LDPressButton: UIView {
             }
         }
     }
+    
+    /// 中间圆心颜色
     var centerColor: UIColor! {
         
         didSet {
             self.centerLayer.fillColor = centerColor.cgColor
         }
     }
+    
+    /// 圆环颜色
     var ringColor: UIColor! {
         
         didSet {
             self.ringLayer.fillColor = ringColor.cgColor
         }
     }
+    
+    /// 进度条颜色
     var progressColor: UIColor! {
         
         didSet {
