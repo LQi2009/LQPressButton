@@ -1,10 +1,10 @@
 
-#LDPressButton
+# LDPressButton
 
-###说明
+### 说明
 本demo是使用swift3.0仿写的微信小视频拍摄按钮, 只是一个简单长按按时计时, 附带环形进度条的小控件
 
-###介绍
+### 介绍
 属性介绍: 对外公开的属性十分简单, 主要是一些简单的设置, 都设有默认值
 
 ```Swift
@@ -45,7 +45,7 @@ enum LDProgressButtonState {
 }
 ```
 
-###使用
+### 使用
 控件继承自UIView, 可以添加到任意视图上, 使用非常简单, 这里直接给出示例代码
 这里直接使用的默认属性设置, 可根据自己的需求来设置
 ```Swift
@@ -75,8 +75,8 @@ press.actionWithClosure { (state) in
         }
 ```
 
-#注意
+# 注意
 在测试时, 请使用真机, 模拟器会导致计时不准确, 因为使用的是CADisplayLink来计时的, 其频率是同iPhone设备同步的
                
-#示意图
+# 示意图
 ![](https://github.com/LQQZYY/LDPressButton/blob/master/pic1.gif)
